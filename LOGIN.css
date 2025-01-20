@@ -1,0 +1,114 @@
+/* General Reset */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ 
+ /* Body Styling */
+ body {
+   font-family: Arial, sans-serif;
+   background: url('back.jpg') no-repeat center center fixed;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   color: #333;
+}
+ 
+ /* Form Container */
+ .form-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+ }
+ .form-container h3{
+   color: white;
+ }
+
+ .form-container p {
+   color: white;
+}
+ 
+ /* Form Elements */
+ form h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #333;
+ }
+ 
+ input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+ }
+ 
+ 
+ input:focus {
+    border-color: #007bff;
+    outline: none;
+ }
+ 
+ .form-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+ }
+ 
+ .form-btn:hover {
+    background-color: #78ceff;
+ }
+ 
+ /* Error Message */
+ .error-msg {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+ }
+ 
+ /* Register Section */
+ form p {
+    margin-top: 20px;
+    font-size: 1rem;
+ }
+ 
+ form a {
+    color: #007bff;
+    text-decoration: none;
+ }
+ 
+ form a:hover {
+    text-decoration: underline;
+ }
+ 
+ /* Responsive Design */
+ @media (max-width: 480px) {
+    .form-container {
+       padding: 15px;
+    }
+ 
+    form h3 {
+       font-size: 1.5rem;
+    }
+ 
+    input, .form-btn {
+       font-size: 0.9rem;
+    }
+ }
+ 
